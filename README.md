@@ -12,3 +12,4 @@ Start with the Webdev skill's default-template guide. Platform login, storage, p
 `server/_core/publicConfig.ts` exposes only named public runtime values. Private keys stay server-side. The platform serves managed `/manus-storage/` assets; the application does not register a second proxy.
 
 Platform configuration is readable and editable through `webdev.config`. Default settings are initial values, not enforced constraints. The agent may modify the files, commands and configuration or follow the flexible guide for another stack.
+The platform offers receipts to the customers but they are only accesible by the owner of the restaurant
